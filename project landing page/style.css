@@ -1,0 +1,129 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+
+  color:#1A261C;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:500px;
+  padding: 20px;
+
+}
+.logo{
+  display: flex;
+  align-self: flex-end;
+}
+ul{
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+button{
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: white;
+}
+.main{
+  background-color: #A7D984;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:300px;
+
+
+}
+.right-main,
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  border: 1px;
+}
+.left-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 80px;
+  align-self: flex-start;
+
+}
+.plants{
+  height: 200px;
+  width:200px;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 50px;
+}
+h1{
+  font-family:"Cooper Black", sans-serif;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family:"Cooper Black", sans-serif;
+}
+.square{
+  border-style: solid;
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+  background-color: #A7D984;
+  margin:20px;
+}
+.first,.second,.third,.fourth{
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap:wrap;
+width: 200px;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 400px;
+  background-color: #1A261C;
+  margin-top: 50px;
+}
+.pi{
+  color: white;
+  font-size: 30px;
+  padding: 200px;
+
+}
+.signup{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  height: 200px;
+  background-color: #1A261C
+}
+.footer{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A7D984;
+}
